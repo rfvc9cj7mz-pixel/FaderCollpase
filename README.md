@@ -12,7 +12,7 @@ Drag and drop the .ablx file onto the Extensions page
 Requires the Ableton Live beta build that supports Extensions.
 
 ## Usage
-Just click on any audio clip in your arrangement session and choose fadercollapse from the available extensions.
+Just click on any audio clip in your arrangement view and choose fadercollapse from the available extensions.
 For subsequent passes the track volume changes will be applied to the existing Utility device added during the first pass.
 
 Known issues: mapping track volume to the gain on a utility device is not a 1:1 map. There is a slight difference between what the track volume was and the gain that will be applied to the Utility device.
