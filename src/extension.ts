@@ -121,7 +121,7 @@ async function insertUtilityDevice(track: LiveTrack, deviceName: string, presetN
     if (gainParameter.name.toLowerCase() === "output" && typeof sourceDelta === "number") {
       // Utility output is not linear in track-volume raw units;
       // approximate the dB-scaled output curve around unity.
-      const outputGainScale = 1.14;
+      const outputGainScale = 1.14145; // empirically derived scale factor
       if (isExistingDevice) {
         targetValue = beforeGainValue + sourceDelta * outputGainScale;
       } else {
