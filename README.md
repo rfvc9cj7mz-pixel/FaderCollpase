@@ -8,7 +8,7 @@ Subsequent running of the script will adjust the gain on the existing utility de
 
 # Installation
 
-Download fadercollapse-1.0.1.ablx from this page
+Download fadercollapse-1.0.2.ablx from the releases
 Open Ableton Live → Preferences → Extensions
 Drag and drop the .ablx file onto the Extensions page
 Requires the Ableton Live beta build that supports Extensions.
@@ -20,7 +20,7 @@ For subsequent passes the track volume changes will be applied to the existing U
 
 ## Current Known Issues
 
-Mapping track volume to the gain on a utility device is not a 1:1 map. There is a slight difference between what the track volume was and the gain that will be applied to the Utility device. Currently approximately 0.1dB per 10dB. This is due to the logarithmic nature of the gain function in Ableton. V1.0.1 has an improved model.
+There may be small gain errors on subsequent runs of the extension if there are large changes in gain due to difficulties mapping the track volume curve to the utility gain curve. These errors have been reduced to a minimum and contact me if you can model the conversion between the two more accurately. Thanks
 
 
 ## Scripts
